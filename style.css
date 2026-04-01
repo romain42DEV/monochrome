@@ -1,35 +1,43 @@
-header{
+header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
-.blanc{
+.blanc {
     color: #FFFFFF;
+}
+
+.centrer {
     text-align: center;
     position: relative;
     top: 200px;
 }
 
-.fond1{
+.section-hero {
     width: 1280px;
-    height: 578px;
+    height: 100vh;
+    /* 100% de la hauteur de l'écran */
     background-image: url(asset/bg-image-hero.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.fond2{
+.fond2 {
     width: 1280px;
-    height: 578px;
+    height: 100vh;
     background-image: url(asset/bg-image-2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-footer{
+footer {
     background: black;
     text-align: center;
     color: white;
     padding: 2px;
+}
+
+.deco{
+    text-decoration: none;
+    color:black
 }
