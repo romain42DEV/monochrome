@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
 }
 
 .blanc {
@@ -9,8 +13,8 @@ header{
 
 .centrer {
     text-align: center;
-    position: relative;
-    top: 200px;
+    /*position: relative;*/
+    /*top: 200px;*/
 }
 
 .section-hero {
@@ -19,15 +23,29 @@ header{
     /* 100% de la hauteur de l'écran */
     background-image: url(asset/bg-image-hero.png);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
 }
 
 .fond2 {
-    width: 1280px;
+    width: 1283px;
     height: 100vh;
     background-image: url(asset/bg-image-2.png);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
 }
 
 footer {
@@ -39,7 +57,36 @@ footer {
 
 a{
     text-decoration: none;
-    color: black
+    color: black;
+}
+
+#menu a {
+    letter-spacing: 0.2rem;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+.taille{
+    font-family: "Rubik", sans-serif;
+    font-size: 36px;
+}
+
+h2{
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+}
+
+p{
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+}
+
+.flex{
+    display: flex;
+    padding: 2rem;
 }
 
 .bouton{
@@ -55,7 +102,7 @@ a{
     background-color: black;
     color: white;
     padding: 5px;
-    position: absolute;
-    left: 500px;
-    top: 50px;
+    /*position: absolute;*/
+    /*left: 500px;*/
+    /*top: 50px;*/
 }
