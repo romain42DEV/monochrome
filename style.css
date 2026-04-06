@@ -40,8 +40,6 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
     padding: 2rem;
 }
 
@@ -93,6 +91,10 @@ ul {
     font-size: 36px;
 }
 
+h1{
+    font-weight: bold;
+}
+
 h2 {
     font-weight: bold;
     font-size: 20px;
@@ -125,6 +127,11 @@ p {
 .relative {
     position: relative;
     top: -150px;
+}
+
+.position{
+    position: relative;
+    left: 260px;
 }
 
 .bouton {
