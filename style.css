@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,13 +43,13 @@ header{
     padding: 2rem;
 }
 
-header a{
+header a {
     font-family: "Rubik", sans-serif;
     font-size: 16px;
     font-weight: bold;
 }
 
-a{
+a {
     font-family: "Rubik", sans-serif;
     text-decoration: none;
     color: black;
@@ -59,47 +59,57 @@ a{
     letter-spacing: 0.2rem;
 }
 
-li{
+li {
     list-style: none;
     display: inline-block;
     padding: 0 2rem;
 }
 
-.taille{
+.taille {
     font-family: "Rubik", sans-serif;
     font-size: 36px;
 }
 
-h2{
+h2 {
     font-family: "Rubik", sans-serif;
     font-size: 20px;
 }
 
-p{
+p {
     font-family: "Rubik", sans-serif;
     font-size: 14px;
 }
 
-.flex{
+.paragraphe {
+    width: 307px;
+    height: 213px;
+}
+
+.paragraphes {
+    width: 315px;
+    height: 161px;
+}
+
+.flex {
     display: flex;
     padding: 2rem;
     flex-wrap: nowrap;
 }
 
-.padding{
+.padding {
     padding: 2rem;
 }
 
-.bouton{
-    border:1px solid black;
+.bouton {
+    border: 1px solid black;
     border-radius: 30px;
     background-color: black;
     padding: 5px;
     color: white;
 }
 
-.btn{
-    border:1px solid black;
+.btn {
+    border: 1px solid black;
     border-radius: 30px;
     background-color: white;
     padding: 5px;
@@ -107,19 +117,33 @@ p{
     position: absolute;
 }
 
-.bouton_deux{
-    border:2px solid black;
-    background-color: black;
+.bouton_deux {
+    background-color: #353434;
     color: white;
     padding: 5px;
-    /*position: absolute;*/
-    /*left: 500px;*/
-    /*top: 50px;*/
+    position: absolute;
+    top: 160px;
+}
+
+.lumière {
+    width: 832px;
+    height: 521px;
+}
+
+.architecture {
+    width: 350px;
+    height: 525px;
+}
+
+.marges{
+    margin-inline: 200px 200px;
 }
 
 footer {
-    background: black;
+    width: 1280px;
+    height: 183px;
+    background-color: #353434;
     text-align: center;
     color: white;
-    padding: 2px;
+    padding: 1rem 0 1rem 0;
 }
