@@ -24,14 +24,16 @@ header {
     gap: 8px;
 }
 
+/*
 header a {
-    /* font-size: 16px; */
-    /* color: black; */
+    font-size: 16px;
+    color: black;
 }
 
 nav {
-    /* width: max-content; */
+    width: max-content;
 }
+*/
 
 .blanc {
     color: #FFFFFF;
@@ -68,17 +70,19 @@ nav {
     padding: 2rem;
 }
 
+/*
 nav a {
-    /* text-align: center; */
-    /* font-weight: bold; */
-    /* padding: 10px; */
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
 }
+*/
 
 /* Texte */
 a {
     text-decoration: none;
-    /*color: black;*/
-    /*font-size: 16px; */
+    color: black;
+    /* font-size: 16px; */
 }
 
 .black {
@@ -91,22 +95,24 @@ a {
     width: 40px;
 }
 
+/*
 #menu a {
-    /* letter-spacing: 0.2rem; */
+    letter-spacing: 0.2rem;
 }
 
 #menu li {
-    /* display: inline-block; */
-    /* padding: 0 1rem; */
+    display: inline-block;
+    padding: 0 1rem;
 }
 
 li {
-    /* list-style: none; */
+    list-style: none;
 }
 
 ul {
-    /* padding: 0; */
+    padding: 0;
 }
+*/
 
 .taille {
     font-size: 36px;
@@ -138,7 +144,29 @@ p {
 
 .flex {
     display: flex;
-    padding: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.w-30{
+    width: 30%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.container-1200{
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
 }
 
 .padding {
@@ -204,4 +232,12 @@ footer {
     text-align: center;
     color: white;
     padding: 1rem 0 1rem 0;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
+
+.mt-10{
+    margin-top: 10px;
 }
