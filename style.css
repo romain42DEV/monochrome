@@ -145,12 +145,16 @@ p {
 .flex {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    /* justify-content: space-between; */
+    /* align-items: center; */
 }
 
 .w-30{
     width: 30%;
+}
+
+.w-48{
+    width: 48%;
 }
 
 .w-50{
