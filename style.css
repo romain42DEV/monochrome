@@ -60,7 +60,7 @@ li {
 }
 
 .fond2 {
-    height: 100vh;
+    height: 80vh;
     background-image: url(asset/bg-image-2.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -68,7 +68,6 @@ li {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
 }
 
 
