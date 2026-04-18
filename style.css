@@ -11,29 +11,38 @@ body {
     font-family: "Rubik", sans-serif;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
 header {
+    position: sticky;
+    top: 0;
+    left: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 40px;
+    padding: 20px;
+    background-color: burlywood;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+li {
+    list-style: none;
 }
 
 .gap-8 {
     display: flex;
     gap: 8px;
 }
-
-/*
-header a {
-    font-size: 16px;
-    color: black;
-}
-
-nav {
-    width: max-content;
-}
-*/
 
 .blanc {
     color: #FFFFFF;
@@ -44,7 +53,6 @@ nav {
 }
 
 .section-hero {
-    width: 1280px;
     height: 100vh;
     /* 100% de la hauteur de l'écran */
     background-image: url(asset/bg-image-hero.png);
@@ -56,7 +64,6 @@ nav {
 }
 
 .fond2 {
-    width: 1283px;
     height: 100vh;
     background-image: url(asset/bg-image-2.png);
     background-repeat: no-repeat;
@@ -70,15 +77,9 @@ nav {
     padding: 2rem;
 }
 
-/*
-nav a {
-    text-align: center;
-    font-weight: bold;
-    padding: 10px;
-}
-*/
 
 /* Texte */
+
 a {
     text-decoration: none;
     color: black;
@@ -94,25 +95,6 @@ a {
 .w-40 {
     width: 40px;
 }
-
-/*
-#menu a {
-    letter-spacing: 0.2rem;
-}
-
-#menu li {
-    display: inline-block;
-    padding: 0 1rem;
-}
-
-li {
-    list-style: none;
-}
-
-ul {
-    padding: 0;
-}
-*/
 
 .taille {
     font-size: 36px;
@@ -230,12 +212,10 @@ p {
 }
 
 footer {
-    width: 1280px;
-    height: 183px;
     background-color: #353434;
     text-align: center;
     color: white;
-    padding: 1rem 0 1rem 0;
+    padding: 20px;
 }
 
 .mt-50{
