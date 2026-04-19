@@ -9,6 +9,7 @@
 
 .logo {
     display: flex;
+    width: 58px;
 }
 
 header {
@@ -87,9 +88,7 @@ a {
     width: 40px;
 }
 
-.taille {
-    font-size: 36px;
-}
+
 
 h1 {
     font-weight: bold;
@@ -123,8 +122,7 @@ p {
 
 .flex {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -232,12 +230,6 @@ p {
     margin-inline: 200px 200px;
 }
 
-footer {
-    background-color: #353434;
-    text-align: center;
-    color: white;
-    padding: 20px;
-}
 
 .mt-10{
     margin-top: 10px;
@@ -249,4 +241,16 @@ footer {
 
 .mt-50{
     margin-top: 50px;
+}
+
+
+footer {
+    background-color: #353434;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.logo-footer {
+    width: 52px;
 }
