@@ -60,14 +60,12 @@ li {
 }
 
 .fond2 {
-    height: 80vh;
+    height: 60vh;
     background-image: url(asset/bg-image-2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 
@@ -125,9 +123,21 @@ p {
 
 .flex {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-between;
-    /* align-items: center; */
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.w-25{
+    width: 25%;
 }
 
 .w-30{
@@ -193,7 +203,7 @@ p {
 .btn {
     border-radius: 5px;
     background-color: white;
-    padding: 9px 20px;
+    padding: 9px 18px;
     color: black;
     display: inline-block;
 }
