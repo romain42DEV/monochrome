@@ -84,12 +84,6 @@ a {
 
 /* Taille */
 
-.w-40 {
-    width: 40px;
-}
-
-
-
 h1 {
     font-weight: bold;
     font-size: 36px;
@@ -168,6 +162,13 @@ p {
     margin-right: auto;
 }
 
+.container-800{
+    max-width: 800px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .padding-10 {
     padding: 10px;
 }
@@ -206,6 +207,7 @@ p {
     display: inline-block;
 }
 
+/*
 .bouton_deux {
     border-radius: 5px;
     background-color: #353434;
@@ -215,11 +217,9 @@ p {
     position: absolute;
     top: 120px;
 }
+*/
 
-.lumière {
-    width: 832px;
-    height: 521px;
-}
+
 
 .architecture {
     width: 350px;
@@ -241,6 +241,10 @@ p {
 
 .mt-50{
     margin-top: 50px;
+}
+
+.mt-100{
+    margin-top: 100px;
 }
 
 
