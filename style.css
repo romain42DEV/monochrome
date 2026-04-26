@@ -29,16 +29,13 @@ ul {
     justify-content: space-between;
     align-items: center;
     gap: 30px;
+    padding-right: 30px;
 }
 
 li {
     list-style: none;
 }
 
-.gap-8 {
-    display: flex;
-    gap: 8px;
-}
 
 .blanc {
     color: #FFFFFF;
@@ -75,7 +72,8 @@ li {
 a {
     text-decoration: none;
     color: black;
-    /* font-size: 16px; */
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .black {
@@ -104,15 +102,10 @@ p {
     font-size: 14px;
 }
 
-.paragraphe {
-    width: 307px;
-    height: 213px;
+.font-size-20 {
+    font-size: 20px;
 }
 
-.paragraphes {
-    width: 315px;
-    height: 161px;
-}
 
 .flex {
     display: flex;
@@ -128,9 +121,6 @@ p {
     justify-content: center;
 }
 
-.w-25{
-    width: 25%;
-}
 
 .w-30{
     width: 30%;
@@ -148,6 +138,7 @@ p {
     width: 100%;
 }
 
+
 .container-1200{
     max-width: 1200px;
     width: 100%;
@@ -162,12 +153,6 @@ p {
     margin-right: auto;
 }
 
-.container-800{
-    max-width: 800px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .padding-10 {
     padding: 10px;
@@ -181,53 +166,23 @@ p {
     padding: 50px;
 }
 
-.relative {
-    position: relative;
-    top: -150px;
-}
-
-.position {
-    position: relative;
-    left: 260px;
-}
 
 .bouton {
-    border-radius: 5px;
+    border-radius: 4px;
     background-color: #353434;
     padding: 9px 20px;
     color: white;
     display: inline-block;
+    font-weight: 400;
 }
 
 .btn {
-    border-radius: 5px;
+    border-radius: 4px;
     background-color: white;
     padding: 9px 18px;
     color: black;
     display: inline-block;
-}
-
-/*
-.bouton_deux {
-    border-radius: 5px;
-    background-color: #353434;
-    color: white;
-    padding: 9px 20px;
-    display: inline-block;
-    position: absolute;
-    top: 120px;
-}
-*/
-
-
-
-.architecture {
-    width: 350px;
-    height: 525px;
-}
-
-.marges {
-    margin-inline: 200px 200px;
+    font-weight: 400;
 }
 
 
@@ -243,8 +198,8 @@ p {
     margin-top: 50px;
 }
 
-.mt-100{
-    margin-top: 100px;
+.ml-50{
+    margin-left: 50px;
 }
 
 
